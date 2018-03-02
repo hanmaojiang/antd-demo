@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Button} from 'antd';
+import { Button } from 'antd';
+import Home from './component/Home';
 import Login from './component/Login';
 import logo from './logo.svg';
 import './App.css';
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Button type="primary">Button</Button>
         <Login />
+        <Home />
       </div>
     );
   }
